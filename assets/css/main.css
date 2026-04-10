@@ -678,6 +678,10 @@ a{
   }
 }
 
+.cerimonia-intro-media img.no-shadow{
+  box-shadow:none;
+}
+
 /* =========================================================
    Alojamento / stays
    ========================================================= */
@@ -796,6 +800,19 @@ a{
   font-size:clamp(22px, 1.8vw, 32px);
   white-space:nowrap;
   line-height:1.1;
+}
+
+.gift-graphic {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.gift-graphic img {
+  width: min(420px, 80%);
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  opacity: 0.9;
 }
 
 /* =========================================================
@@ -1289,6 +1306,14 @@ textarea:focus-visible{
   .details-grid{
     gap:2rem;
   }
+
+ .two-col-intro .intro-copy{
+    order:1;
+  }
+
+  .two-col-intro .portrait{
+    order:2;
+  }  
 }
 
 @media (max-width: 780px){
